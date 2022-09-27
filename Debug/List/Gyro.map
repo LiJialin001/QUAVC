@@ -1,0 +1,2367 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V6.5.1.95                                          #
+#                                                                              #
+#           Link time     =  12/Sep/2022  03:07:36                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\List\Gyro.map           #
+#           Output file 1 =  C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Exe\Gyro.d43            #
+#                            Format: ubrof10                                   #
+#                            UBROF version 10.0.6                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  -f C:\Users\18256\AppData\Local\Temp\EW21A3.tmp   #
+#                            (C:\Users\18256\Desktop\自动化学院-王艺文-3020234 #
+#                            363\6.无人机完整飞控\Debug\Obj\adc10_a.r43        #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\adc12_a.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\aes.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\battbak.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\board.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\comp_b.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\control.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\crc.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\ctsd16.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\dac12_a.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\delay.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\dma.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\eusci_a_spi.r43     #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\eusci_a_uart.r43    #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\eusci_b_i2c.r43     #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\eusci_b_spi.r43     #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\flashctl.r43        #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\gpio.r43            #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\height_control.r43  #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\i2c.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\imu.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\kernel.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\lcd_b.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\lcd_c.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\ldopwr.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\LED.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\main.r43            #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\motor.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\mpu6050.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\mpy32.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\myMath.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\oa.r43              #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\pid.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\pmap.r43            #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\pmm.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\ram.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\ref.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\rtc_a.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\rtc_b.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\rtc_c.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\sd24_b.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\sfr.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\speed_estimator.r43 #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\SPL06.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\sysctl.r43          #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\tec.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\timer.r43           #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\timer_a.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\timer_b.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\timer_d.r43         #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\tlv.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\ucs.r43             #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\usci_a_spi.r43      #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\usci_a_uart.r43     #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\usci_b_i2c.r43      #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\usci_b_spi.r43      #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Obj\wdt_a.r43           #
+#                            -o                                                #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\Exe\Gyro.d43            #
+#                            -l                                                #
+#                            C:\Users\18256\Desktop\自动化学院-王艺文-30202343 #
+#                            63\6.无人机完整飞控\Debug\List\Gyro.map           #
+#                            -xms "-ID:\IAR Systems\430\LIB\" -f               #
+#                            "D:\IAR Systems\430\config\linker\lnk430f5529.xcl #
+#                            "                                                 #
+#                            (-cmsp430 -D?CPU30_OFFSET=2 -QCODE_I=CODE_ID      #
+#                            -QTLS16_I=TLS16_ID -D__iar_HWMUL=4C0              #
+#                            -Z(CONST)INFO=1800-19FF                           #
+#                            -Z(CONST)INFOA=1980-19FF                          #
+#                            -Z(CONST)INFOB=1900-197F                          #
+#                            -Z(CONST)INFOC=1880-18FF                          #
+#                            -Z(CONST)INFOD=1800-187F                          #
+#                            -Z(DATA)USBRAM=1C00-23FF                          #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I=2400-4 #
+#                            3FF                                               #
+#                            -Z(DATA)DATA16_HEAP+_DATA16_HEAP_SIZE             #
+#                            -Z(DATA)CODE_I                                    #
+#                            -Z(DATA)DATA20_I,DATA20_Z,DATA20_N,DATA20_HEAP+_D #
+#                            ATA20_HEAP_SIZE                                   #
+#                            -Z(DATA)CSTACK+_STACK_SIZE#                       #
+#                            -Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHEC #
+#                            KSUM=4400-FF7F                                    #
+#                            -Z(CODE)CSTART,ISR_CODE,CODE16=4400-FF7F          #
+#                            -P(CODE)CODE=4400-FF7F,10000-243FF                #
+#                            -Z(CONST)DATA20_C,DATA20_ID,CODE_ID=4400-FF7F,100 #
+#                            40-243FF                                          #
+#                            -Z(CODE)INTVEC=FF80-FFFF                          #
+#                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
+#                            "D:\IAR Systems\430\config\linker\multiplier32.xc #
+#                            l"                                                #
+#                            (-e?Mul8Hw=?Mul8 -e?Mul16Hw=?Mul16                #
+#                            -e?Mul16to32uHw=?Mul16to32u                       #
+#                            -e?Mul16to32sHw=?Mul16to32s -e?Mul32Hw32=?Mul32   #
+#                            -e?Mul64Hw32=_Mul64i                              #
+#                            -e?Mul32u32uto64iHw32=_Mul32u32uto64i             #
+#                            -e?Mul32fHw32=_Mul32f                             #
+#                            -e_Mul64fHw32Ptr=_Mul64fPtr) -D_STACK_SIZE=A0     #
+#                            -rt                                               #
+#                            "D:\IAR Systems\430\lib\dlib\dl430xlsfn.r43"      #
+#                            -e_PrintfLarge=_Printf -e_ScanfLarge=_Scanf       #
+#                            -D_DATA16_HEAP_SIZE=A0 -s __program_start         #
+#                            -D_DATA20_HEAP_SIZE=50)                           #
+#                                                                              #
+#                           Copyright (C) 1987-2016 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           4446  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __code_model               = large
+  __core                     = 430X
+  __data_model               = small
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 32
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                  There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _DATA20_HEAP_SIZE       0050 
+           _DATA16_HEAP_SIZE       00A0 
+           _STACK_SIZE             00A0 
+           __iar_HWMUL             04C0            ?Mul32fHw32 (?Mul32fHw32)
+                                                   privateUCSSourceClockFromDCO (ucs)
+           ?CPU30_OFFSET           0002 
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\adc10_a.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\adc12_a.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\aes.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\battbak.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\board.r43
+  PROGRAM MODULE, NAME : board
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 241A - 2421 (0x8 bytes), align: 1
+  Segment part 2.             Intra module refs:   System_Clock_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Clk_ACLK                241A 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2422 - 2429 (0x8 bytes), align: 1
+  Segment part 3.             Intra module refs:   System_Clock_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Clk_SMCLK               2422 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 242A - 2431 (0x8 bytes), align: 1
+  Segment part 4.             Intra module refs:   System_Clock_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Clk_MCLK                242A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70C8 - 71AB (0xe4 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           System_Clock_Init       70C8            main (main)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\comp_b.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\control.r43
+  PROGRAM MODULE, NAME : control
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 2432 - 2439 (0x8 bytes), align: 1
+  Segment part 2.             Intra module refs:   MotorControl
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           motor                   2432 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28F8 - 28F8 (0x1 bytes), align: 0
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           g_FMUflg                28F8            WZ_Fix_Calcu (speed_estimator)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 243A - 243D (0x4 bytes), align: 1
+  Segment part 4.             Intra module refs:   FlightPidControl
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PIDGroup_desired_yaw_pos_tmp
+                                   243A 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 243E - 2441 (0x4 bytes), align: 1
+  Segment part 5.             Intra module refs:   FlightPidControl
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ResetYawAngle           243E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 621A - 6375 (0x15c bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           FlightPidControl        621A            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5BF4 - 5DA7 (0x1b4 bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MotorControl            5BF4            PollingKernel (kernel)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\crc.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\ctsd16.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\dac12_a.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\delay.r43
+  PROGRAM MODULE, NAME : delay
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8104 - 8127 (0x24 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           delay_ms                8104            GetMPU6050Offset (mpu6050)
+                                                   MPU6050Init (mpu6050)
+                                                   SPL06_Init (SPL06)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\dma.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\eusci_a_spi.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\eusci_a_uart.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\eusci_b_i2c.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\eusci_b_spi.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\flashctl.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\gpio.r43
+  PROGRAM MODULE, NAME : gpio
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_C
+  Relative segment, address: 4400 - 441B (0x1c bytes), align: 1
+  Segment part 2.             Intra module refs:   GPIO_setAsPeripheralModuleFunctionInputPin
+                                                   GPIO_setAsPeripheralModuleFunctionOutputPin
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           GPIO_PORT_TO_BASE       4400 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 80B4 - 80DD (0x2a bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_setAsPeripheralModuleFunctionOutputPin
+                                   80B4            Motor_Init (motor)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 808A - 80B3 (0x2a bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GPIO_setAsPeripheralModuleFunctionInputPin
+                                   808A            System_Clock_Init (board)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\height_control.r43
+  PROGRAM MODULE, NAME : height_control
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 2442 - 2453 (0x12 bytes), align: 1
+  Segment part 2.             Intra module refs:   ALT_Ctrl
+                                                   mode_control
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           HeightInfo              2442            ATT_Update (imu)
+                                                   MotorControl (control)
+                                                   WZ_Est_Calcu (speed_estimator)
+                                                   WZ_Fix_Calcu (speed_estimator)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2454 - 2463 (0x10 bytes), align: 1
+  Segment part 5.             Intra module refs:   ALT_Ctrl
+                                                   mode_control
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           exp_vel_transition      2454 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2464 - 2467 (0x4 bytes), align: 1
+  Segment part 6.             Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           exp_vel_d               2464 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2468 - 246B (0x4 bytes), align: 1
+  Segment part 7.             Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           exp_acc                 2468 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 246C - 246F (0x4 bytes), align: 1
+  Segment part 8.             Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           fb_acc                  246C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2470 - 2473 (0x4 bytes), align: 1
+  Segment part 9.             Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           exp_vel                 2470 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2474 - 2477 (0x4 bytes), align: 1
+  Segment part 10.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           fb_vel                  2474 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2478 - 247B (0x4 bytes), align: 1
+  Segment part 11.            Intra module refs:   ALT_Ctrl
+                                                   mode_control
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exp_hei                 2478 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 247C - 247F (0x4 bytes), align: 1
+  Segment part 12.            Intra module refs:   ALT_Ctrl
+                                                   mode_control
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           fb_hei                  247C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2480 - 2483 (0x4 bytes), align: 1
+  Segment part 13.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           hei_err                 2480 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2484 - 2487 (0x4 bytes), align: 1
+  Segment part 14.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           vel_err                 2484 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2488 - 248B (0x4 bytes), align: 1
+  Segment part 15.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           acc_err                 2488 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 248C - 248F (0x4 bytes), align: 1
+  Segment part 16.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           acc_err_i               248C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2490 - 2493 (0x4 bytes), align: 1
+  Segment part 17.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           acc_out                 2490 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2494 - 2497 (0x4 bytes), align: 1
+  Segment part 18.            Intra module refs:   ALT_Ctrl
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           wz_out                  2494 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28F9 - 28F9 (0x1 bytes), align: 0
+  Segment part 19.            Intra module refs:   ALT_Ctrl
+                                                   mode_control
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           task_flag               28F9            MotorControl (control)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2498 - 249B (0x4 bytes), align: 1
+  Segment part 20.            Intra module refs:   mode_control
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           on_the_ground_count     2498 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 249C - 249F (0x4 bytes), align: 1
+  Segment part 21.            Intra module refs:   mode_control
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           take_off_ready_count    249C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24A0 - 24A3 (0x4 bytes), align: 1
+  Segment part 23.            Intra module refs:   mode_control
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           keep_altitude_count     24A0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6766 - 689F (0x13a bytes), align: 1
+  Segment part 25.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           mode_control            6766            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 50CC - 53CF (0x304 bytes), align: 1
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ALT_Ctrl                50CC            PollingKernel (kernel)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\i2c.r43
+  PROGRAM MODULE, NAME : i2c
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0220 - 0221 (0x2 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   IIC_RecvACK
+                                                   IIC_RecvByte
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBIN_L               0220 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBIN                    0220 
+           PBIN_H                  0221 
+           PBIN_L                  0220 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0222 - 0223 (0x2 bytes), align: 0
+  Segment part 2. ROOT        Intra module refs:   IIC_RecvACK
+                                                   IIC_RecvByte
+                                                   IIC_SendACK
+                                                   IIC_SendByte
+                                                   IIC_Start
+                                                   IIC_Stop
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBOUT_L              0222 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBOUT                   0222 
+           PBOUT_H                 0223 
+           PBOUT_L                 0222 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0224 - 0225 (0x2 bytes), align: 0
+  Segment part 3. ROOT        Intra module refs:   I2C_Init
+                                                   IIC_RecvACK
+                                                   IIC_RecvByte
+                                                   IIC_SendACK
+                                                   IIC_SendByte
+                                                   IIC_Start
+                                                   IIC_Stop
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBDIR_L              0224 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBDIR                   0224 
+           PBDIR_H                 0225 
+           PBDIR_L                 0224 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28FA - 28FA (0x1 bytes), align: 0
+  Segment part 5.             Intra module refs:   IIC_RecvACK
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Ack_Count               28FA 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 835C - 8361 (0x6 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C_Init                835C            main (main)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8214 - 822B (0x18 bytes), align: 1
+  Segment part 7.             Intra module refs:   IIC_RecvACK
+                                                   IIC_RecvByte
+                                                   IIC_SendACK
+                                                   IIC_SendByte
+                                                   IIC_Start
+                                                   IIC_Stop
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           delay                   8214 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 805E - 8089 (0x2c bytes), align: 1
+  Segment part 8.             Intra module refs:   I2C_Read_Byte
+                                                   I2C_Read_Bytes
+                                                   I2C_Write_Byte
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_Start               805E 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 80DE - 8103 (0x26 bytes), align: 1
+  Segment part 9.             Intra module refs:   I2C_Read_Byte
+                                                   I2C_Read_Bytes
+                                                   I2C_Write_Byte
+                                                   IIC_RecvACK
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_Stop                80DE 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7C5A - 7CA7 (0x4e bytes), align: 1
+  Segment part 10.            Intra module refs:   I2C_Read_Byte
+                                                   I2C_Read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_SendACK             7C5A 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7FD4 - 8001 (0x2e bytes), align: 1
+  Segment part 11.            Intra module refs:   I2C_Read_Byte
+                                                   I2C_Read_Bytes
+                                                   I2C_Write_Byte
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_RecvACK             7FD4 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7C08 - 7C59 (0x52 bytes), align: 1
+  Segment part 12.            Intra module refs:   I2C_Read_Byte
+                                                   I2C_Read_Bytes
+                                                   I2C_Write_Byte
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_SendByte            7C08 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7DC6 - 7DFF (0x3a bytes), align: 1
+  Segment part 13.            Intra module refs:   I2C_Read_Byte
+                                                   I2C_Read_Bytes
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IIC_RecvByte            7DC6 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7E00 - 7E37 (0x38 bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C_Write_Byte          7E00            MPU6050Init (mpu6050)
+                                                   SelectMode (SPL06)
+                                                   SetRate (SPL06)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7A54 - 7AB1 (0x5e bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C_Read_Byte           7A54            GetRawPressure (SPL06)
+                                                   GetRawTemp (SPL06)
+                                                   MPU6050Init (mpu6050)
+                                                   SPL06_Init (SPL06)
+                                                   SetRate (SPL06)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 77A2 - 781F (0x7e bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           I2C_Read_Bytes          77A2            MPU_6050_read (mpu6050)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\imu.r43
+  PROGRAM MODULE, NAME : imu
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 24A4 - 24AF (0xc bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           g_Attitude              24A4            FlightPidControl (control)
+                                                   PollingKernel (kernel)
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2400 - 240F (0x10 bytes), align: 1
+  Segment part 3.             Intra module refs:   ATT_Update
+                                                   GetAngle
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           NumQ                    2400 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24B0 - 24B3 (0x4 bytes), align: 1
+  Segment part 5.             Intra module refs:   ATT_Update
+                                                   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           vecxZ                   24B0 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24B4 - 24B7 (0x4 bytes), align: 1
+  Segment part 6.             Intra module refs:   ATT_Update
+                                                   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           vecyZ                   24B4 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24B8 - 24BB (0x4 bytes), align: 1
+  Segment part 7.             Intra module refs:   ATT_Update
+                                                   GetAngle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           veczZ                   24B8 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24BC - 24C3 (0x8 bytes), align: 1
+  Segment part 8.             Intra module refs:   ATT_Update
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           wz_acc_tmp              24BC 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 44E4 - 4D4F (0x86c bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ATT_Update              44E4            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24C4 - 24CF (0xc bytes), align: 1
+  Segment part 9.             Intra module refs:   ATT_Update
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ATT_Update::GyroIntegError
+                                   24C4 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2410 - 2413 (0x4 bytes), align: 1
+  Segment part 10.            Intra module refs:   ATT_Update
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ATT_Update::KpDef       2410 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2414 - 2417 (0x4 bytes), align: 1
+  Segment part 12.            Intra module refs:   ATT_Update
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ATT_Update::KiDef       2414 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 4D50 - 50CB (0x37c bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetAngle                4D50            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 442C - 443B (0x10 bytes), align: 1
+  Segment part 4.             Intra module refs:   NumQ
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 443C - 443F (0x4 bytes), align: 1
+  Segment part 11.            Intra module refs:   ATT_Update::KpDef
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 4440 - 4443 (0x4 bytes), align: 1
+  Segment part 13.            Intra module refs:   ATT_Update::KiDef
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\kernel.r43
+  PROGRAM MODULE, NAME : kernel
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 28FB - 28FB (0x1 bytes), align: 0
+  Segment part 3.             Intra module refs:   PollingKernel
+                                                   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Thread_3MS              28FB 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28FC - 28FC (0x1 bytes), align: 0
+  Segment part 4.             Intra module refs:   PollingKernel
+                                                   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Thread_8MS              28FC 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28FD - 28FD (0x1 bytes), align: 0
+  Segment part 5.             Intra module refs:   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Thread_10MS             28FD 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28FE - 28FE (0x1 bytes), align: 0
+  Segment part 6.             Intra module refs:   PollingKernel
+                                                   TIMER0_B0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Thread_20MS             28FE 
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 446E - 44E3 (0x76 bytes), align: 1
+  Segment part 8.             Intra module refs:   TIMER0_B0_ISR::??INTVEC 118
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER0_B0_ISR           446E 
+               interrupt function
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24D0 - 24D3 (0x4 bytes), align: 1
+  Segment part 7.             Intra module refs:   TIMER0_B0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           TIMER0_B0_ISR::Cnt      24D0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 771E - 77A1 (0x84 bytes), align: 1
+  Segment part 9.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PollingKernel           771E            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFF7 (0x78 bytes), align: 1
+  Segment part 1. ROOT 
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER0_B0_ISR::??INTVEC 118
+                                   FFF6 
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\lcd_b.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\lcd_c.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\ldopwr.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\LED.r43
+  PROGRAM MODULE, NAME : LED
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0202 - 0203 (0x2 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   LEDInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAOUT_L              0202 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAOUT                   0202 
+           PAOUT_H                 0203 
+           PAOUT_L                 0202 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0204 - 0205 (0x2 bytes), align: 0
+  Segment part 2. ROOT        Intra module refs:   LEDInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PADIR_L              0204 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PADIR                   0204 
+           PADIR_H                 0205 
+           PADIR_L                 0204 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24D4 - 24D9 (0x6 bytes), align: 1
+  Segment part 4.             Intra module refs:   LEDInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           g_LedManager            24D4 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8128 - 814B (0x24 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LEDInit                 8128            main (main)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\main.r43
+  PROGRAM MODULE, NAME : main
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 015C - 015D (0x2 bytes), align: 0
+  Segment part 1. ROOT        Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_WDTCTL_L             015C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           WDTCTL                  015C 
+           WDTCTL_H                015D 
+           WDTCTL_L                015C 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7E38 - 7E6F (0x38 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    7E38            Segment part 27 (?cstart)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\motor.r43
+  PROGRAM MODULE, NAME : motor
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7696 - 771D (0x88 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UpdateMotor             7696            MotorControl (control)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7442 - 74DD (0x9c bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Motor_Init              7442            main (main)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\mpu6050.r43
+  PROGRAM MODULE, NAME : mpu6050
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 24DA - 24F3 (0x1a bytes), align: 1
+  Segment part 5.             Intra module refs:   GetMPU6050Offset
+                                                   MPU6050Init
+                                                   MPU_6050_read
+                                                   Segment part 7
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           g_MPUManager            24DA            ATT_Update (imu)
+                                                   FlightPidControl (control)
+                                                   PollingKernel (kernel)
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2418 - 2419 (0x2 bytes), align: 1
+  Segment part 6.             Intra module refs:   GetMPU6050Offset
+                                                   MPU_6050_read
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           pMpu                    2418 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 72FE - 73A5 (0xa8 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MPU6050Init             72FE            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 69D0 - 6AF5 (0x126 bytes), align: 1
+  Segment part 9.             Intra module refs:   GetMPU6050Offset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MPU_6050_read           69D0            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 24F4 - 253B (0x48 bytes), align: 1
+  Segment part 8.             Intra module refs:   MPU_6050_read
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           MPU_6050_read::mpu_filter
+                                   24F4 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5DA8 - 5F2F (0x188 bytes), align: 1
+  Segment part 10.            Intra module refs:   MPU6050Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetMPU6050Offset        5DA8 
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 4444 - 4445 (0x2 bytes), align: 1
+  Segment part 7.             Intra module refs:   pMpu
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\mpy32.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\myMath.r43
+  PROGRAM MODULE, NAME : myMath
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_C
+  Relative segment, address: 441C - 441F (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RtA                     441C            GetAngle (imu)
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: 4420 - 4423 (0x4 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gyro_G                  4420            FlightPidControl (control)
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: 4424 - 4427 (0x4 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Gyro_Gr                 4424            ATT_Update (imu)
+    -------------------------------------------------------------------------
+DATA16_C
+  Relative segment, address: 4428 - 442B (0x4 bytes), align: 1
+  Segment part 7.             Intra module refs:   arcsin
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PI_2                    4428 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 790A - 797B (0x72 bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           arctan                  790A            GetAngle (imu)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6D12 - 6E17 (0x106 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           arcsin                  6D12            GetAngle (imu)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 797C - 79E9 (0x6e bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Q_rsqrt                 797C            ATT_Update (imu)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\oa.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\pid.r43
+  PROGRAM MODULE, NAME : pid
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 253C - 287B (0x340 bytes), align: 1
+  Segment part 2.             Intra module refs:   PID_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PIDGroup                253C            FlightPidControl (control)
+                                                   MotorControl (control)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 53D0 - 5615 (0x246 bytes), align: 1
+  Segment part 4.             Intra module refs:   ClacCascadePID
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UpdatePID               53D0 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8002 - 802F (0x2e bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ClacCascadePID          8002            FlightPidControl (control)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 64D2 - 6627 (0x156 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PID_Init                64D2            main (main)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\pmap.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\pmm.r43
+  PROGRAM MODULE, NAME : pmm
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6EFE - 6FE3 (0xe6 bytes), align: 1
+  Segment part 33.            Intra module refs:   PMM_setVCore
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMM_setVCoreUp          6EFE 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7256 - 72FD (0xa8 bytes), align: 1
+  Segment part 34.            Intra module refs:   PMM_setVCore
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMM_setVCoreDown        7256 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7AB2 - 7B0D (0x5c bytes), align: 1
+  Segment part 35.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PMM_setVCore            7AB2            System_Clock_Init (board)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\ram.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\ref.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\rtc_a.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\rtc_b.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\rtc_c.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\sd24_b.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\sfr.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\speed_estimator.r43
+  PROGRAM MODULE, NAME : speed_estimator
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 287C - 2887 (0xc bytes), align: 1
+  Segment part 2.             Intra module refs:   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fix_rat                 287C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28FF - 28FF (0x1 bytes), align: 0
+  Segment part 3.             Intra module refs:   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           wz_fus_sta              28FF 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2888 - 288B (0x4 bytes), align: 1
+  Segment part 8.             Intra module refs:   WZ_Fix_Calcu
+                                                   WZ_Fus_Reset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           obs_wz_velocity_ref     2888 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 288C - 288F (0x4 bytes), align: 1
+  Segment part 9.             Intra module refs:   WZ_Fix_Calcu
+                                                   WZ_Fus_Reset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           obs_wz_height_ref       288C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2890 - 2893 (0x4 bytes), align: 1
+  Segment part 10.            Intra module refs:   WZ_Est_Calcu
+                                                   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           est_wz_velocity         2890 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2894 - 2897 (0x4 bytes), align: 1
+  Segment part 11.            Intra module refs:   WZ_Est_Calcu
+                                                   WZ_Fix_Calcu
+                                                   WZ_Fus_Reset
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           est_wz_height           2894            mode_control (height_control)
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 2898 - 289B (0x4 bytes), align: 1
+  Segment part 12.            Intra module refs:   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fix_wz_velocity         2898 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 289C - 289F (0x4 bytes), align: 1
+  Segment part 13.            Intra module refs:   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fix_wz_height           289C 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28A0 - 28A3 (0x4 bytes), align: 1
+  Segment part 14.            Intra module refs:   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fix_wz_acceleration     28A0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7BB6 - 7C07 (0x52 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WZ_Est_Calcu            7BB6            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5836 - 5A33 (0x1fe bytes), align: 1
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WZ_Fix_Calcu            5836            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28A4 - 28A7 (0x4 bytes), align: 1
+  Segment part 15.            Intra module refs:   WZ_Fix_Calcu
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           WZ_Fix_Calcu::tmp       28A4 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8190 - 81AD (0x1e bytes), align: 1
+  Segment part 17.            Intra module refs:   WZ_Fix_Calcu
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WZ_Fus_Reset            8190 
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\SPL06.r43
+  PROGRAM MODULE, NAME : SPL06
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 28A8 - 28ED (0x46 bytes), align: 1
+  Segment part 4.             Intra module refs:   CalcParam
+                                                   GetRawPressure
+                                                   GetRawTemp
+                                                   GetSPL06Press
+                                                   ResetAlt
+                                                   SPL06_Init
+                                                   SetRate
+                                                   UpdateSPL06Info
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           g_SPL06Manager          28A8            WZ_Fix_Calcu (speed_estimator)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7896 - 7909 (0x74 bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SPL06_Init              7896            main (main)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6376 - 64D1 (0x15c bytes), align: 1
+  Segment part 10.            Intra module refs:   SPL06_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetRate                 6376 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7D86 - 7DC5 (0x40 bytes), align: 1
+  Segment part 11.            Intra module refs:   SPL06_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CalcParam               7D86 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 82E4 - 82F1 (0xe bytes), align: 1
+  Segment part 9.             Intra module refs:   SPL06_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SelectMode              82E4 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 73A6 - 7441 (0x9c bytes), align: 1
+  Segment part 7.             Intra module refs:   UpdateSPL06Info
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetRawTemp              73A6 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 74DE - 7575 (0x98 bytes), align: 1
+  Segment part 6.             Intra module refs:   UpdateSPL06Info
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetRawPressure          74DE 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5F30 - 60B5 (0x186 bytes), align: 1
+  Segment part 5.             Intra module refs:   UpdateSPL06Info
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           GetSPL06Press           5F30 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6C0C - 6D11 (0x106 bytes), align: 1
+  Segment part 8.             Intra module refs:   SPL06_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UpdateSPL06Info         6C0C            PollingKernel (kernel)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8300 - 830D (0xe bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ResetAlt                8300            mode_control (height_control)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\sysctl.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\tec.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\timer.r43
+  PROGRAM MODULE, NAME : timer
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7E70 - 7EA7 (0x38 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_Init              7E70            main (main)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\timer_a.r43
+  PROGRAM MODULE, NAME : timer_a
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 79EA - 7A53 (0x6a bytes), align: 1
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_A_outputPWM       79EA            Motor_Init (motor)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8328 - 8333 (0xc bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_A_setCompareValue
+                                   8328            UpdateMotor (motor)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\timer_b.r43
+  PROGRAM MODULE, NAME : timer_b
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7820 - 7895 (0x76 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_B_initUpMode      7820            Timer_Init (timer)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8368 - 836D (0x6 bytes), align: 1
+  Segment part 22.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Timer_B_clearTimerInterrupt
+                                   8368            TIMER0_B0_ISR (kernel)
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\timer_d.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\tlv.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\ucs.r43
+  PROGRAM MODULE, NAME : ucs
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 28EE - 28F1 (0x4 bytes), align: 1
+  Segment part 2.             Intra module refs:   UCS_setExternalClockSource
+                                                   privateUCSComputeCLKFrequency
+                                                   privateUCSSourceClockFromDCO
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateXT1ClockFrequency
+                                   28EE 
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28F2 - 28F5 (0x4 bytes), align: 1
+  Segment part 3.             Intra module refs:   UCS_setExternalClockSource
+                                                   privateUCSComputeCLKFrequency
+                                                   privateUCSSourceClockFromDCO
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateXT2ClockFrequency
+                                   28F2 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6628 - 6765 (0x13e bytes), align: 1
+  Segment part 4.             Intra module refs:   privateUCSComputeCLKFrequency
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateUCSSourceClockFromDCO
+                                   6628 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6FE4 - 70C7 (0xe4 bytes), align: 1
+  Segment part 5.             Intra module refs:   UCS_getACLK
+                                                   UCS_getMCLK
+                                                   UCS_getSMCLK
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           privateUCSComputeCLKFrequency
+                                   6FE4 
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8278 - 8289 (0x12 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_setExternalClockSource
+                                   8278            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71AC - 7255 (0xaa bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_initClockSignal     71AC            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7EA8 - 7EDD (0x36 bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_turnOnLFXT1         7EA8            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7EDE - 7F11 (0x34 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_turnOnXT2           7EDE            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8030 - 805D (0x2e bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_initFLLSettle       8030            System_Clock_Init (board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6E18 - 6EFD (0xe6 bytes), align: 1
+  Segment part 20.            Intra module refs:   UCS_initFLLSettle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_initFLL             6E18 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 836E - 8373 (0x6 bytes), align: 1
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_turnOnSMCLK         836E            System_Clock_Init (board)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8170 - 818F (0x20 bytes), align: 1
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_getACLK             8170            System_Clock_Init (board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 81CA - 81E3 (0x1a bytes), align: 1
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_getSMCLK            81CA            System_Clock_Init (board)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8240 - 8253 (0x14 bytes), align: 1
+  Segment part 30.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCS_getMCLK             8240            System_Clock_Init (board)
+               calls direct
+
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\usci_a_spi.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\usci_a_uart.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\usci_b_i2c.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\usci_b_spi.r43
+    *************************************************************************
+
+  FILE NAME : C:\Users\18256\Desktop\自动化学院-王艺文-3020234363\6.无人机完整飞控\Debug\Obj\wdt_a.r43
+  PROGRAM MODULE, NAME : wdt_a
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 81AE - 81C9 (0x1c bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           WDT_A_hold              81AE            System_Clock_Init (board)
+
+    *************************************************************************
+
+  FILE NAME : D:\IAR Systems\430\lib\dlib\dl430xlsfn.r43
+  LIBRARY MODULE, NAME : ?__dbg_break
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8380 - 8381 (0x2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __DebugBreak            8380            __exit (?__exit)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 822C - 823F (0x14 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  822C            Segment part 6 (?_exit)
+                                                   _exit (?_exit)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?_exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8378, align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   8378            exit (?exit)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8378 - 837B (0x4 bytes), align: 1
+  Segment part 6.             Intra module refs:   _exit
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?cstart
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTACK
+  Relative segment, address: 4360, align: 1
+  Segment part 1.
+    -------------------------------------------------------------------------
+DATA16_Z
+  Relative segment, address: 28F6, align: 1
+  Segment part 2.
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 241A, align: 1
+  Segment part 3.
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 4446, align: 1
+  Segment part 4.
+    -------------------------------------------------------------------------
+CODE_I
+  Relative segment, address: 2900, align: 1
+  Segment part 5.
+    -------------------------------------------------------------------------
+CODE_ID
+  Relative segment, address: 8382, align: 1
+  Segment part 6.
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 2900, align: 1
+  Segment part 7.
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 2900, align: 1
+  Segment part 8.
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 8382, align: 1
+  Segment part 9.
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 8382, align: 1
+  Segment part 10.
+    -------------------------------------------------------------------------
+DATA20_N
+  Relative segment, address: 2900, align: 1
+  Segment part 12.
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 4446 - 4449 (0x4 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         4446            ?reset_vector (?reset_vector)
+                                                   Absolute parts (?ABS_ENTRY_MOD)
+           ?cstart_begin           4446 
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 444A - 4455 (0xc bytes), align: 1
+  Segment part 20.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_zero       444A            ATT_Update::GyroIntegError (imu)
+                                                   Ack_Count (i2c)
+                                                   Clk_ACLK (board)
+                                                   Clk_MCLK (board)
+                                                   Clk_SMCLK (board)
+                                                   HeightInfo (height_control)
+                                                   MPU_6050_read::mpu_filter (mpu6050)
+                                                   PIDGroup (pid)
+                                                   PIDGroup_desired_yaw_pos_tmp (control)
+                                                   ResetYawAngle (control)
+                                                   TIMER0_B0_ISR::Cnt (kernel)
+                                                   Thread_10MS (kernel)
+                                                   Thread_20MS (kernel)
+                                                   Thread_3MS (kernel)
+                                                   Thread_8MS (kernel)
+                                                   WZ_Fix_Calcu::tmp (speed_estimator)
+                                                   __iar_Errno (?errno)
+                                                   acc_err (height_control)
+                                                   acc_err_i (height_control)
+                                                   acc_out (height_control)
+                                                   est_wz_height (speed_estimator)
+                                                   est_wz_velocity (speed_estimator)
+                                                   exp_acc (height_control)
+                                                   exp_hei (height_control)
+                                                   exp_vel (height_control)
+                                                   exp_vel_d (height_control)
+                                                   exp_vel_transition (height_control)
+                                                   fb_acc (height_control)
+                                                   fb_hei (height_control)
+                                                   fb_vel (height_control)
+                                                   fix_rat (speed_estimator)
+                                                   fix_wz_acceleration (speed_estimator)
+                                                   fix_wz_height (speed_estimator)
+                                                   fix_wz_velocity (speed_estimator)
+                                                   g_Attitude (imu)
+                                                   g_FMUflg (control)
+                                                   g_LedManager (LED)
+                                                   g_MPUManager (mpu6050)
+                                                   g_SPL06Manager (SPL06)
+                                                   hei_err (height_control)
+                                                   keep_altitude_count (height_control)
+                                                   motor (control)
+                                                   obs_wz_height_ref (speed_estimator)
+                                                   obs_wz_velocity_ref (speed_estimator)
+                                                   on_the_ground_count (height_control)
+                                                   privateXT1ClockFrequency (ucs)
+                                                   privateXT2ClockFrequency (ucs)
+                                                   take_off_ready_count (height_control)
+                                                   task_flag (height_control)
+                                                   vecxZ (imu)
+                                                   vecyZ (imu)
+                                                   veczZ (imu)
+                                                   vel_err (height_control)
+                                                   wz_acc_tmp (imu)
+                                                   wz_fus_sta (speed_estimator)
+                                                   wz_out (height_control)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 4456 - 4465 (0x10 bytes), align: 1
+  Segment part 21.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_copy       4456            ATT_Update::KiDef (imu)
+                                                   ATT_Update::KpDef (imu)
+                                                   NumQ (imu)
+                                                   pMpu (mpu6050)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 4466 - 446D (0x8 bytes), align: 1
+  Segment part 27.            Intra module refs:   Segment part 15
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_call_main       4466 
+           ?cstart_end             446E 
+    -------------------------------------------------------------------------
+CODE_ID
+  Relative segment, address: 8382, align: 1
+  Segment part 28.            Intra module refs:   Segment part 5
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?reset_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+RESET
+  Relative segment, address: FFFE - FFFF (0x2 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?reset_vector           FFFE            Segment part 15 (?cstart)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?errno
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_Z
+  Relative segment, address: 28F6 - 28F7 (0x2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Errno             28F6            __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8374 - 8377 (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    8374            Segment part 27 (?cstart)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exp
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7CF4 - 7D3F (0x4c bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exp                     7CF4            UpdateSPL06Info (SPL06)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Mul32fHw32
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6AF6 - 6C0B (0x116 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul32fHw32             6AF6            ALT_Ctrl (height_control)
+                                                   ATT_Update (imu)
+                                                   FlightPidControl (control)
+                                                   GetAngle (imu)
+                                                   GetSPL06Press (SPL06)
+                                                   MPU_6050_read (mpu6050)
+                                                   Q_rsqrt (myMath)
+                                                   Segment part 4 (?xexp)
+                                                   Segment part 4 (?xlog)
+                                                   Segment part 6 (?xlog)
+                                                   Segment part 8 (?xexp)
+                                                   Segment part 8 (?xlog)
+                                                   Segment part 9 (?xlog)
+                                                   UpdatePID (pid)
+                                                   UpdateSPL06Info (SPL06)
+                                                   WZ_Est_Calcu (speed_estimator)
+                                                   WZ_Fix_Calcu (speed_estimator)
+                                                   __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+                                                   arcsin (myMath)
+                                                   arctan (myMath)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?Cast32f32i
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7576 - 7589 (0x14 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32sto32f           7576            ATT_Update (imu)
+                                                   FlightPidControl (control)
+                                                   GetSPL06Press (SPL06)
+                                                   MPU_6050_read (mpu6050)
+                                                   MotorControl (control)
+                                                   UpdateSPL06Info (SPL06)
+                                                   __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+                                                   arcsin (myMath)
+                                                   arctan (myMath)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 758A - 7607 (0x7e bytes), align: 1
+  Segment part 1.             Intra module refs:   _Cast32sto32f
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32uto32f           758A 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Cast32fto32s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7F12 - 7F43 (0x32 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Cast32fto32s           7F12            ALT_Ctrl (height_control)
+                                                   MPU_6050_read (mpu6050)
+                                                   MotorControl (control)
+                                                   UpdateSPL06Info (SPL06)
+                                                   __iar_Exp (?xexp)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_Extract
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7CA8 - 7CF3 (0x4c bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_Extract            7CA8            _Cast32fto32s (_Cast32fto32s)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_EQ
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7F44 - 7F73 (0x30 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_EQ                 7F44            Segment part 5 (?xexp)
+                                                   UpdatePID (pid)
+                                                   __iar_Exp (?xexp)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_GE
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7B0E - 7B63 (0x56 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_GE                 7B0E            ALT_Ctrl (height_control)
+                                                   FlightPidControl (control)
+                                                   WZ_Fix_Calcu (speed_estimator)
+                                                   __iar_Exp (?xexp)
+                                                   arcsin (myMath)
+                                                   mode_control (height_control)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FLT_LT
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7B64 - 7BB5 (0x52 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FLT_LT                 7B64            ALT_Ctrl (height_control)
+                                                   FlightPidControl (control)
+                                                   UpdatePID (pid)
+                                                   WZ_Fix_Calcu (speed_estimator)
+                                                   __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+                                                   arcsin (myMath)
+                                                   mode_control (height_control)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Div32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 68A0 - 69CF (0x130 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Div32f                 68A0            GetAngle (imu)
+                                                   GetSPL06Press (SPL06)
+                                                   UpdatePID (pid)
+                                                   UpdateSPL06Info (SPL06)
+                                                   WZ_Fix_Calcu (speed_estimator)
+                                                   __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+                                                   arcsin (myMath)
+                                                   arctan (myMath)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : _Add32f
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 60B6 - 60B9 (0x4 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Sub32f                 60B6            ALT_Ctrl (height_control)
+                                                   ATT_Update (imu)
+                                                   FlightPidControl (control)
+                                                   GetAngle (imu)
+                                                   MPU_6050_read (mpu6050)
+                                                   MotorControl (control)
+                                                   Q_rsqrt (myMath)
+                                                   Segment part 6 (?xlog)
+                                                   UpdatePID (pid)
+                                                   UpdateSPL06Info (SPL06)
+                                                   WZ_Fix_Calcu (speed_estimator)
+                                                   __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 60BA - 6219 (0x160 bytes), align: 1
+  Segment part 1.             Intra module refs:   _Sub32f
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _Add32f                 60BA            ALT_Ctrl (height_control)
+                                                   ATT_Update (imu)
+                                                   FlightPidControl (control)
+                                                   GetAngle (imu)
+                                                   GetSPL06Press (SPL06)
+                                                   MPU_6050_read (mpu6050)
+                                                   MotorControl (control)
+                                                   Segment part 3 (?xexp)
+                                                   Segment part 3 (?xlog)
+                                                   Segment part 8 (?xlog)
+                                                   Segment part 9 (?xlog)
+                                                   UpdatePID (pid)
+                                                   WZ_Est_Calcu (speed_estimator)
+                                                   WZ_Fix_Calcu (speed_estimator)
+                                                   __iar_Exp (?xexp)
+                                                   __iar_Log (?xlog)
+                                                   arcsin (myMath)
+                                                   arctan (myMath)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?log
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8362 - 8367 (0x6 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           log                     8362            UpdateSPL06Info (SPL06)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 81FC - 8213 (0x18 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod16u              81FC            ?DivMod16s (?DivMod816s)
+                                                   privateUCSComputeCLKFrequency (ucs)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816s
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7F74 - 7FA3 (0x30 bytes), align: 1
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod16s              7F74            privateUCSComputeCLKFrequency (ucs)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod32u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7FA4 - 7FD3 (0x30 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod32u              7FA4            TIMER0_B0_ISR (kernel)
+                                                   privateUCSComputeCLKFrequency (ucs)
+                                                   privateUCSSourceClockFromDCO (ucs)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8266 - 8277 (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  8266            __data16_memcpy (?memzero)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memset
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 8254 - 8265 (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memset                  8254            GetMPU6050Offset (mpu6050)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memzero
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 828A - 8299 (0x10 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memzero        828A            ?cstart_init_zero (?cstart)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 837C - 837F (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memcpy         837C            ?cstart_init_copy (?cstart)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdscale
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7608 - 7695 (0x8e bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dscale            7608            __iar_Exp (?xexp)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdtest
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 814C - 816F (0x24 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dtest             814C            __iar_Exp (?xexp)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xdunscal
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7D40 - 7D85 (0x46 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Dunscale          7D40            __iar_Log (?xlog)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xexp
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 5616 - 5835 (0x220 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Exp               5616            exp (?exp)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 830E - 831B (0xe bytes), align: 1
+  Segment part 3.             Intra module refs:   __iar_Exp
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8334 - 833D (0xa bytes), align: 1
+  Segment part 4.             Intra module refs:   __iar_Exp
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 831C - 8327 (0xc bytes), align: 1
+  Segment part 5.             Intra module refs:   __iar_Exp
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 833E - 8347 (0xa bytes), align: 1
+  Segment part 6.             Intra module refs:   Segment part 5
+                                                   __iar_Exp
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8348 - 8351 (0xa bytes), align: 1
+  Segment part 7.             Intra module refs:   __iar_Exp
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 82D6 - 82E3 (0xe bytes), align: 1
+  Segment part 8.             Intra module refs:   __iar_Exp
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 82C8 - 82D5 (0xe bytes), align: 1
+  Segment part 9.             Intra module refs:   __iar_Exp
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?xlog
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 5A34 - 5BF3 (0x1c0 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __iar_Log               5A34            log (?log)
+               calls direct
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 82BA - 82C7 (0xe bytes), align: 1
+  Segment part 3.             Intra module refs:   __iar_Log
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 82F2 - 82FF (0xe bytes), align: 1
+  Segment part 4.             Intra module refs:   __iar_Log
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8352 - 835B (0xa bytes), align: 1
+  Segment part 5.             Intra module refs:   __iar_Log
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 82AA - 82B9 (0x10 bytes), align: 1
+  Segment part 6.             Intra module refs:   __iar_Log
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 829A - 82A9 (0x10 bytes), align: 1
+  Segment part 8.             Intra module refs:   __iar_Log
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 81E4 - 81FB (0x18 bytes), align: 1
+  Segment part 9.             Intra module refs:   __iar_Log
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              015C - 015D               2   rel    0
+                                       0202 - 0205               4 
+                                       0220 - 0225               6 
+DATA16_I                               2400 - 2419              1A   rel    1
+DATA16_Z                               241A - 28FF             4E6   rel    1
+DATA20_I                                  2900                       rel    1
+DATA20_Z                                  2900                       rel    1
+DATA20_N                                  2900                       rel    1
+CODE_I                                    2900                       rel    1
+CSTACK                                 4360 - 43FF              A0   rel    1
+DATA16_C                               4400 - 442B              2C   rel    1
+DATA16_ID                              442C - 4445              1A   rel    1
+CSTART                                 4446 - 446D              28   rel    1
+ISR_CODE                               446E - 44E3              76   rel    1
+<CODE> 1                               44E4 - 8381            3E9E   rel    1
+CODE_ID                                   8382                       rel    1
+DATA20_ID                                 8382                       rel    1
+DATA20_C                                  8382                       rel    1
+INTVEC                                 FF80 - FFF7              78   com    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 16 310 bytes of CODE  memory
+  1 440 bytes of DATA  memory (+ 12 absolute )
+     70 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
